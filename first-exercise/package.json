@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-prod": "ng build --prod",
-    "serve-prod": "ng serve --port 4201"
+    "serve-prod": "ng serve --host 0.0.0.0 --port 4201 --prod"
   },
   "private": true,
   "dependencies": {
